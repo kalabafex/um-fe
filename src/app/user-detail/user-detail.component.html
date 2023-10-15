@@ -1,0 +1,5 @@
+<app-user-form
+  mode="detail"
+  [employee]="employee$ | async"
+  (editUserEvent)="onEdit($event)"
+></app-user-form>
